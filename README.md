@@ -22,39 +22,25 @@ printf("Ваш ответ: %.3lf", a);
 6. Конец
 
 # Блок-схема 
-<img width="526" height="758" alt="image" src="https://github.com/user-attachments/assets/4bcbe98b-0359-49fd-b716-08655ad51297" />
 
-
+<img width="363" height="649" alt="image" src="https://github.com/user-attachments/assets/3fb9a742-76ae-4979-ae62-b85efe1ec665" />
 
 # Реализация программы
 
 ```
-#define _CRT_SECURE_NO_WARNINGS
+#include <math.h>
 #include <stdio.h>
 #include <locale.h>
 int main() {
 	setlocale(LC_CTYPE, "RUS");
-	int A, B, res;
-	printf("=== СИСТЕМА КОНТРОЛЯ ДОСТУПА ===\n");
-	printf("Введите два целых числа: ");
-	scanf("%d %d", &A, &B);
-	res = (A % 2 == 0) && (B % 2 == 0);
-	printf("Доступ разрешен (1 - да , 0 - нет): %d\n", res);
-	return 0;
+	double x = -15.246, y = 4.642 * pow(10, -2), z= 20.001 * pow(10,2) , a;
+	a = log(pow(y,-sqrt(fabs(x)))) * (x-(y/2)) + pow(sin(atan(z)),2);
+	printf("Ваш ответ: %.3lf", a);
 }
-
 ```
 # Пример работы программы при вводе цен 10 и 8
 
-Введите число А:
-
-10
-
-Введите число В:
-
-8
-
-Доступ разрешен (1 - да , 0 - нет): 1
+<img width="267" height="109" alt="image" src="https://github.com/user-attachments/assets/9b873f04-68d1-4610-815e-1f299b6970d2" />
 
 # Информация о разработчике
 
