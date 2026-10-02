@@ -38,7 +38,7 @@ int main() {
 	printf("Ваш ответ: %.3lf", a);
 }
 ```
-# Пример работы программы при вводе цен 10 и 8
+# Пример работы программы:
 
 <img width="267" height="109" alt="image" src="https://github.com/user-attachments/assets/9b873f04-68d1-4610-815e-1f299b6970d2" />
 
